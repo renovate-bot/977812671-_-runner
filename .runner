@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 21,
-  "agentName": "aws-ec2-runner",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/SfyakzukUfdhrBdEGidiFfmixUSG5YVYuoxUNq0fbGV6uquOeY/",
-  "gitHubUrl": "https://github.com/977812671/gancc",
-  "workFolder": "_work"
-}
