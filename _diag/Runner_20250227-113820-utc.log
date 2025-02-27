@@ -1,0 +1,208 @@
+[2025-02-27 11:38:20Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 11:38:20Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:20Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:20Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 11:38:20Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:20Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:20Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 11:38:20Z INFO Listener] Runner is built for Linux (X64) - gancc.
+[2025-02-27 11:38:20Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 11:38:20Z INFO Listener] Version: 2.322.0
+[2025-02-27 11:38:20Z INFO Listener] Commit: N/A
+[2025-02-27 11:38:20Z INFO Listener] Culture: en-US
+[2025-02-27 11:38:20Z INFO Listener] UI Culture: en-US
+[2025-02-27 11:38:20Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:20Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:20Z INFO Listener] Validating directory permissions for: '/root/runner-2.322.0'
+[2025-02-27 11:38:20Z INFO CommandLineParser] Parse
+[2025-02-27 11:38:20Z INFO CommandLineParser] Parsing 10 args
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 11:38:20Z INFO CommandLineParser] Adding Command: configure
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] arg: url
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] Adding option 'url': 'https://github.com/977812671/gancc'
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] arg: pat
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] Adding option 'pat': '***'
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] arg: replace
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] arg: name
+[2025-02-27 11:38:20Z INFO CommandLineParser] Adding flag: replace
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] Adding option 'name': 'aws-ec2-runner'
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] arg: labels
+[2025-02-27 11:38:20Z INFO CommandLineParser] parsing argument
+[2025-02-27 11:38:20Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 11:38:20Z INFO CommandLineParser] Adding option 'labels': 'linux,x64,gpu'
+[2025-02-27 11:38:20Z INFO Listener] Arguments parsed
+[2025-02-27 11:38:20Z INFO Runner] ExecuteCommand
+[2025-02-27 11:38:21Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner-2.322.0/bin/Runner.Listener.dll
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:21Z INFO ConfigurationStore] binPath: /root/runner-2.322.0/bin
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:21Z INFO ConfigurationStore] RootFolder: /root/runner-2.322.0
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:21Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 11:38:21Z INFO ConfigurationStore] ConfigFilePath: /root/runner-2.322.0/.runner
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:21Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 11:38:21Z INFO ConfigurationStore] CredFilePath: /root/runner-2.322.0/.credentials
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:21Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner-2.322.0/.credentials_migrated'
+[2025-02-27 11:38:21Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner-2.322.0/.credentials_migrated
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:21Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:21Z INFO HostContext] Well known config file 'Service': '/root/runner-2.322.0/.service'
+[2025-02-27 11:38:21Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner-2.322.0/.service
+[2025-02-27 11:38:21Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 11:38:21Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 11:38:21Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 11:38:21Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 11:38:21Z INFO CommandSettings] Command 'configure': 'True'
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: 
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE: |                       
+[2025-02-27 11:38:21Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE:                         |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 11:38:21Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 11:38:21Z INFO ConfigurationManager] ConfigureAsync
+[2025-02-27 11:38:21Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2025-02-27 11:38:21Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 11:38:21Z INFO ConfigurationStore] IsConfigured: False
+[2025-02-27 11:38:21Z INFO ConfigurationManager] Is configured: False
+[2025-02-27 11:38:21Z INFO CommandSettings] Arg 'url': 'https://github.com/977812671/gancc'
+[2025-02-27 11:38:21Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-02-27 11:38:21Z INFO ConfigurationManager] Retriving runner registration token using GitHub PAT.
+[2025-02-27 11:38:22Z INFO ConfigurationManager] Http response code: Created from 'POST https://api.github.com/repos/977812671/gancc/actions/runners/registration-token' (BFCC:91424:112DBB5:22918C1:67C04EAD)
+[2025-02-27 11:38:22Z INFO ConfigurationManager] Retrived runner registration token is good to 2025-02-27T20:38:22.344+08:00.
+[2025-02-27 11:38:23Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (E268:1F7C43:3F5B2CD:7F51097:67C04EAE)
+[2025-02-27 11:38:23Z INFO ConfigurationManager] Using V2 flow: False
+[2025-02-27 11:38:23Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-02-27 11:38:23Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 11:38:23Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 11:38:23Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 11:38:23Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 11:38:23Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 11:38:23Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 11:38:23Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 11:38:23Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 11:38:23Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 11:38:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 11:38:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 11:38:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 11:38:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 11:38:24Z INFO ConfigurationManager] Test Connection complete.
+[2025-02-27 11:38:24Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:24Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:24Z INFO HostContext] Well known config file 'RSACredentials': '/root/runner-2.322.0/.credentials_rsaparams'
+[2025-02-27 11:38:24Z INFO RSAFileKeyManager] Found existing RSA key parameters file /root/runner-2.322.0/.credentials_rsaparams
+[2025-02-27 11:38:24Z INFO CommandSettings] Arg 'runnergroup': ''
+[2025-02-27 11:38:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 11:38:24Z INFO PromptManager] ReadValue
+[2025-02-27 11:38:24Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2025-02-27 11:38:24Z INFO Terminal] WRITE: [press Enter for Default] 
+[2025-02-27 11:38:24Z INFO Terminal] READ LINE
+[2025-02-27 11:38:25Z INFO Terminal] Read value: ''
+[2025-02-27 11:38:25Z INFO PromptManager] Falling back to the default: 'Default'
+[2025-02-27 11:38:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 11:38:25Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2025-02-27 11:38:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 11:38:25Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 11:38:25Z INFO CommandSettings] Arg 'name': 'aws-ec2-runner'
+[2025-02-27 11:38:25Z INFO CommandSettings] Remove name from Arg dictionary.
+[2025-02-27 11:38:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 11:38:25Z INFO CommandSettings] Arg 'labels': 'linux,x64,gpu'
+[2025-02-27 11:38:25Z INFO CommandSettings] Remove labels from Arg dictionary.
+[2025-02-27 11:38:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 11:38:25Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 11:38:25Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 11:38:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 11:38:25Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 11:38:26Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 11:38:26Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 11:38:26Z INFO ConfigurationStore] Saving OAuth credential @ /root/runner-2.322.0/.credentials
+[2025-02-27 11:38:26Z INFO ConfigurationStore] Credentials Saved.
+[2025-02-27 11:38:26Z INFO ConfigurationStore] HasCredentials()
+[2025-02-27 11:38:26Z INFO ConfigurationStore] stored True
+[2025-02-27 11:38:26Z INFO CredentialManager] GetCredentialProvider
+[2025-02-27 11:38:26Z INFO CredentialManager] Creating type OAuth
+[2025-02-27 11:38:26Z INFO CredentialManager] Creating credential type: OAuth
+[2025-02-27 11:38:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /root/runner-2.322.0/.credentials_rsaparams
+[2025-02-27 11:38:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /root/runner-2.322.0/.credentials_rsaparams
+[2025-02-27 11:38:26Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 11:38:26Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 11:38:26Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 11:38:26Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 11:38:26Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 11:38:26Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 11:38:26Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 11:38:26Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 11:38:26Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 11:38:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 11:38:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 11:38:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 11:38:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /root/runner-2.322.0/.credentials_rsaparams
+[2025-02-27 11:38:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /root/runner-2.322.0/.credentials_rsaparams
+[2025-02-27 11:38:27Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-02-27 11:38:27Z INFO CommandSettings] Arg 'work': ''
+[2025-02-27 11:38:27Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 11:38:27Z INFO PromptManager] ReadValue
+[2025-02-27 11:38:27Z INFO Terminal] WRITE: Enter name of work folder: 
+[2025-02-27 11:38:27Z INFO Terminal] WRITE: [press Enter for _work] 
+[2025-02-27 11:38:27Z INFO Terminal] READ LINE
+[2025-02-27 11:38:29Z INFO Terminal] Read value: ''
+[2025-02-27 11:38:29Z INFO PromptManager] Falling back to the default: '_work'
+[2025-02-27 11:38:29Z INFO ConfigurationStore] Saving runner settings.
+[2025-02-27 11:38:30Z INFO ConfigurationStore] Settings Saved.
+[2025-02-27 11:38:30Z INFO Terminal] WRITE LINE: 
+[2025-02-27 11:38:30Z INFO Terminal] WRITE LINE: 
+[2025-02-27 11:38:30Z INFO SystemDControlManager] Service name 'actions.runner.977812671-gancc.aws-ec2-runner.service' display name 'GitHub Actions Runner (977812671-gancc.aws-ec2-runner)' will be used for service configuration.
+[2025-02-27 11:38:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 11:38:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/bin'
+[2025-02-27 11:38:30Z ERR  SystemDControlManager] System.IO.FileNotFoundException: Could not find file '/root/runner-2.322.0/bin/systemd.svc.sh.template'.
+File name: '/root/runner-2.322.0/bin/systemd.svc.sh.template'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at GitHub.Runner.Listener.Configuration.SystemDControlManager.GenerateScripts(RunnerSettings settings) in /root/runner-2.322.0/src/Runner.Listener/Configuration/SystemdControlManager.cs:line 30
+[2025-02-27 11:38:30Z ERR  Runner] System.IO.FileNotFoundException: Could not find file '/root/runner-2.322.0/bin/systemd.svc.sh.template'.
+File name: '/root/runner-2.322.0/bin/systemd.svc.sh.template'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at GitHub.Runner.Listener.Configuration.SystemDControlManager.GenerateScripts(RunnerSettings settings) in /root/runner-2.322.0/src/Runner.Listener/Configuration/SystemdControlManager.cs:line 30
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 432
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Runner.cs:line 141
+[2025-02-27 11:38:30Z ERR  Terminal] WRITE ERROR: Could not find file '/root/runner-2.322.0/bin/systemd.svc.sh.template'.
+[2025-02-27 11:38:30Z INFO Listener] Runner execution has finished with return code 1

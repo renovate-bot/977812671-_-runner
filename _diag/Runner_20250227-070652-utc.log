@@ -1,0 +1,7 @@
+[2025-02-27 07:06:52Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 07:06:52Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:06:52Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:06:52Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 07:06:52Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:06:52Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:06:52Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'

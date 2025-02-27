@@ -1,0 +1,66 @@
+[2025-02-27 07:09:22Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 07:09:22Z INFO Listener] Runner is built for Linux (X64) - N/A.
+[2025-02-27 07:09:22Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 07:09:22Z INFO Listener] Version: 0
+[2025-02-27 07:09:22Z INFO Listener] Commit: N/A
+[2025-02-27 07:09:22Z INFO Listener] Culture: en-US
+[2025-02-27 07:09:22Z INFO Listener] UI Culture: en-US
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO Listener] Validating directory permissions for: '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO CommandLineParser] Parse
+[2025-02-27 07:09:22Z INFO CommandLineParser] Parsing 1 args
+[2025-02-27 07:09:22Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:09:22Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 07:09:22Z INFO CommandLineParser] Adding Command: -h
+[2025-02-27 07:09:22Z INFO Listener] Arguments parsed
+[2025-02-27 07:09:22Z INFO CommandSettings] Command 'configure': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Command 'remove': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Command 'run': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-02-27 07:09:22Z ERR  Terminal] WRITE ERROR: This command does not recognize the command-line input arguments: '-h'. For usage refer to: .\config.cmd --help or ./config.sh --help
+[2025-02-27 07:09:22Z INFO Runner] ExecuteCommand
+[2025-02-27 07:09:22Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner-2.322.0/out/Runner.Listener.dll
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO ConfigurationStore] binPath: /root/runner-2.322.0/out
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO ConfigurationStore] RootFolder: /root/runner-2.322.0
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 07:09:22Z INFO ConfigurationStore] ConfigFilePath: /root/runner-2.322.0/.runner
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 07:09:22Z INFO ConfigurationStore] CredFilePath: /root/runner-2.322.0/.credentials
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner-2.322.0/.credentials_migrated'
+[2025-02-27 07:09:22Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner-2.322.0/.credentials_migrated
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:22Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:22Z INFO HostContext] Well known config file 'Service': '/root/runner-2.322.0/.service'
+[2025-02-27 07:09:22Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner-2.322.0/.service
+[2025-02-27 07:09:22Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Command 'configure': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Command 'remove': 'False'
+[2025-02-27 07:09:22Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-02-27 07:09:22Z INFO ConfigurationManager] LoadSettings
+[2025-02-27 07:09:22Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 07:09:22Z INFO ConfigurationStore] IsConfigured: False
+[2025-02-27 07:09:22Z INFO ConfigurationManager] Is configured: False
+[2025-02-27 07:09:22Z ERR  Terminal] WRITE ERROR: An error occurred: Not configured. Run config.(sh/cmd) to configure the runner.
+[2025-02-27 07:09:22Z ERR  Listener] GitHub.Runner.Common.NonRetryableException: Not configured. Run config.(sh/cmd) to configure the runner.
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.LoadSettings() in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 60
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Runner.cs:line 255
+   at GitHub.Runner.Listener.Program.MainAsync(IHostContext context, String[] args) in /root/runner-2.322.0/src/Runner.Listener/Program.cs:line 125

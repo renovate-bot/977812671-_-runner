@@ -1,0 +1,165 @@
+[2025-02-27 07:15:15Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 07:15:15Z INFO Listener] Runner is built for Linux (X64) - N/A.
+[2025-02-27 07:15:15Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 07:15:15Z INFO Listener] Version: 0
+[2025-02-27 07:15:15Z INFO Listener] Commit: N/A
+[2025-02-27 07:15:15Z INFO Listener] Culture: en-US
+[2025-02-27 07:15:15Z INFO Listener] UI Culture: en-US
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO Listener] Validating directory permissions for: '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO CommandLineParser] Parse
+[2025-02-27 07:15:15Z INFO CommandLineParser] Parsing 10 args
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 07:15:15Z INFO CommandLineParser] Adding Command: configure
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] arg: url
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] Adding option 'url': 'https://github.com/977812671/x'
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] arg: pat
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] Adding option 'pat': '***'
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] arg: replace
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] arg: name
+[2025-02-27 07:15:15Z INFO CommandLineParser] Adding flag: replace
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] Adding option 'name': 'aws-ec2-runner'
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] arg: labels
+[2025-02-27 07:15:15Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:15:15Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:15:15Z INFO CommandLineParser] Adding option 'labels': 'linux,x64,gpu'
+[2025-02-27 07:15:15Z INFO Listener] Arguments parsed
+[2025-02-27 07:15:15Z INFO Runner] ExecuteCommand
+[2025-02-27 07:15:15Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner-2.322.0/out/Runner.Listener.dll
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO ConfigurationStore] binPath: /root/runner-2.322.0/out
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO ConfigurationStore] RootFolder: /root/runner-2.322.0
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 07:15:15Z INFO ConfigurationStore] ConfigFilePath: /root/runner-2.322.0/.runner
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 07:15:15Z INFO ConfigurationStore] CredFilePath: /root/runner-2.322.0/.credentials
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner-2.322.0/.credentials_migrated'
+[2025-02-27 07:15:15Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner-2.322.0/.credentials_migrated
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:15Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:15Z INFO HostContext] Well known config file 'Service': '/root/runner-2.322.0/.service'
+[2025-02-27 07:15:15Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner-2.322.0/.service
+[2025-02-27 07:15:15Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 07:15:15Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 07:15:15Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 07:15:15Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 07:15:15Z INFO CommandSettings] Command 'configure': 'True'
+[2025-02-27 07:15:15Z INFO Terminal] WRITE LINE: 
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE: |                       
+[2025-02-27 07:15:16Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE:                         |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 07:15:16Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 07:15:16Z INFO ConfigurationManager] ConfigureAsync
+[2025-02-27 07:15:16Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2025-02-27 07:15:16Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 07:15:16Z INFO ConfigurationStore] IsConfigured: False
+[2025-02-27 07:15:16Z INFO ConfigurationManager] Is configured: False
+[2025-02-27 07:15:16Z INFO CommandSettings] Arg 'url': 'https://github.com/977812671/x'
+[2025-02-27 07:15:16Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-02-27 07:15:16Z INFO ConfigurationManager] Retriving runner registration token using GitHub PAT.
+[2025-02-27 07:15:17Z INFO ConfigurationManager] Http response code: Created from 'POST https://api.github.com/repos/977812671/x/actions/runners/registration-token' (BF5C:1585BD:2DEEFB:5CCDDA:67C01104)
+[2025-02-27 07:15:17Z INFO ConfigurationManager] Retrived runner registration token is good to 2025-02-27T16:15:17.348+08:00.
+[2025-02-27 07:15:18Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (E206:22AD8:2B91BDC:57987F8:67C01105)
+[2025-02-27 07:15:18Z INFO ConfigurationManager] Using V2 flow: False
+[2025-02-27 07:15:18Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-02-27 07:15:18Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 07:15:18Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 07:15:18Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 07:15:18Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 07:15:18Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 07:15:18Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 07:15:18Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 07:15:18Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 07:15:18Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 07:15:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 07:15:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 07:15:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 07:15:19Z INFO Terminal] WRITE LINE: 
+[2025-02-27 07:15:19Z INFO ConfigurationManager] Test Connection complete.
+[2025-02-27 07:15:19Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:15:19Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:15:19Z INFO HostContext] Well known config file 'RSACredentials': '/root/runner-2.322.0/.credentials_rsaparams'
+[2025-02-27 07:15:19Z INFO RSAFileKeyManager] Found existing RSA key parameters file /root/runner-2.322.0/.credentials_rsaparams
+[2025-02-27 07:15:19Z INFO CommandSettings] Arg 'runnergroup': ''
+[2025-02-27 07:15:19Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 07:15:19Z INFO PromptManager] ReadValue
+[2025-02-27 07:15:19Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2025-02-27 07:15:19Z INFO Terminal] WRITE: [press Enter for Default] 
+[2025-02-27 07:15:19Z INFO Terminal] READ LINE
+[2025-02-27 07:15:20Z INFO Terminal] Read value: ''
+[2025-02-27 07:15:20Z INFO PromptManager] Falling back to the default: 'Default'
+[2025-02-27 07:15:20Z INFO Terminal] WRITE LINE: 
+[2025-02-27 07:15:20Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 07:15:20Z INFO CommandSettings] Arg 'name': 'aws-ec2-runner'
+[2025-02-27 07:15:20Z INFO CommandSettings] Remove name from Arg dictionary.
+[2025-02-27 07:15:20Z INFO Terminal] WRITE LINE: 
+[2025-02-27 07:15:20Z INFO CommandSettings] Arg 'labels': 'linux,x64,gpu'
+[2025-02-27 07:15:20Z INFO CommandSettings] Remove labels from Arg dictionary.
+[2025-02-27 07:15:20Z INFO Terminal] WRITE LINE: 
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 07:15:20Z ERR  GitHubActionsService] POST request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents failed. HTTP Status: BadRequest
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 07:15:20Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 07:15:20Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 330
+[2025-02-27 07:15:20Z ERR  Terminal] #####################################################
+[2025-02-27 07:15:20Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 07:15:20Z ERR  Terminal] WRITE ERROR: Failed to add the runner. Try again or ctrl-c to quit
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 07:15:20Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 07:15:20Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 07:15:20Z INFO PromptManager] ReadValue
+[2025-02-27 07:15:20Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 07:15:20Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 07:15:20Z INFO Terminal] READ LINE
+[2025-02-27 07:17:37Z INFO Terminal] WRITE LINE: Exiting...

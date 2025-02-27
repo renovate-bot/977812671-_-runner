@@ -1,0 +1,83 @@
+[2025-02-27 07:09:30Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 07:09:30Z INFO Listener] Runner is built for Linux (X64) - N/A.
+[2025-02-27 07:09:30Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 07:09:30Z INFO Listener] Version: 0
+[2025-02-27 07:09:30Z INFO Listener] Commit: N/A
+[2025-02-27 07:09:30Z INFO Listener] Culture: en-US
+[2025-02-27 07:09:30Z INFO Listener] UI Culture: en-US
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO Listener] Validating directory permissions for: '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO CommandLineParser] Parse
+[2025-02-27 07:09:30Z INFO CommandLineParser] Parsing 1 args
+[2025-02-27 07:09:30Z INFO CommandLineParser] parsing argument
+[2025-02-27 07:09:30Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 07:09:30Z INFO CommandLineParser] arg: help
+[2025-02-27 07:09:30Z INFO Listener] Arguments parsed
+[2025-02-27 07:09:30Z INFO Runner] ExecuteCommand
+[2025-02-27 07:09:30Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner-2.322.0/out/Runner.Listener.dll
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO ConfigurationStore] binPath: /root/runner-2.322.0/out
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO ConfigurationStore] RootFolder: /root/runner-2.322.0
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 07:09:30Z INFO ConfigurationStore] ConfigFilePath: /root/runner-2.322.0/.runner
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 07:09:30Z INFO ConfigurationStore] CredFilePath: /root/runner-2.322.0/.credentials
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner-2.322.0/.credentials_migrated'
+[2025-02-27 07:09:30Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner-2.322.0/.credentials_migrated
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 07:09:30Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 07:09:30Z INFO HostContext] Well known config file 'Service': '/root/runner-2.322.0/.service'
+[2025-02-27 07:09:30Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner-2.322.0/.service
+[2025-02-27 07:09:30Z INFO CommandSettings] Flag 'help': 'True'
+[2025-02-27 07:09:30Z INFO Terminal] WRITE LINE: 
+Commands:
+ ./config.sh         Configures the runner
+ ./config.sh remove  Unconfigures the runner
+ ./run.sh            Runs the runner interactively. Does not require any options.
+
+Options:
+ --help     Prints the help for each command
+ --version  Prints the runner version
+ --commit   Prints the runner commit
+ --check    Check the runner's network connectivity with GitHub server
+
+Config Options:
+ --unattended           Disable interactive prompts for missing arguments. Defaults will be used for missing options
+ --url string           Repository to add the runner to. Required if unattended
+ --token string         Registration token. Required if unattended
+ --name string          Name of the runner to configure (default racknerd-fd2fee)
+ --runnergroup string   Name of the runner group to add this runner to (defaults to the default runner group)
+ --labels string        Custom labels that will be added to the runner. This option is mandatory if --no-default-labels is used.
+ --no-default-labels    Disables adding the default labels: 'self-hosted,Linux,X64'
+ --local                Removes the runner config files from your local machine. Used as an option to the remove command
+ --work string          Relative runner work directory (default _work)
+ --replace              Replace any existing runner with the same name (default false)
+ --pat                  GitHub personal access token with repo scope. Used for checking network connectivity when executing `./run.sh --check`
+ --disableupdate        Disable self-hosted runner automatic update to the latest released version`
+ --ephemeral            Configure the runner to only take one job and then let the service un-configure the runner after the job finishes (default false)
+[2025-02-27 07:09:30Z INFO Terminal] WRITE LINE: 
+Examples:
+ Check GitHub server network connectivity:
+  ./run.sh --check --url <url> --pat <pat>
+ Configure a runner non-interactively:
+  ./config.sh --unattended --url <url> --token <token>
+ Configure a runner non-interactively, replacing any existing runner with the same name:
+  ./config.sh --unattended --url <url> --token <token> --replace [--name <name>]
+ Configure a runner non-interactively with three extra labels:
+  ./config.sh --unattended --url <url> --token <token> --labels L1,L2,L3
+[2025-02-27 07:09:30Z INFO Listener] Runner execution has finished with return code 0

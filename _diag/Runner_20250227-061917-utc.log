@@ -1,0 +1,668 @@
+[2025-02-27 06:19:17Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 06:19:17Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:17Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:17Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 06:19:17Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:17Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:17Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 06:19:17Z INFO Listener] Runner is built for Linux (X64) - N/A.
+[2025-02-27 06:19:17Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 06:19:17Z INFO Listener] Version: 0
+[2025-02-27 06:19:17Z INFO Listener] Commit: N/A
+[2025-02-27 06:19:17Z INFO Listener] Culture: en-US
+[2025-02-27 06:19:17Z INFO Listener] UI Culture: en-US
+[2025-02-27 06:19:17Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:17Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:17Z INFO Listener] Validating directory permissions for: '/root/runner-2.322.0'
+[2025-02-27 06:19:17Z INFO CommandLineParser] Parse
+[2025-02-27 06:19:17Z INFO CommandLineParser] Parsing 8 args
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 06:19:17Z INFO CommandLineParser] Adding Command: configure
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 06:19:17Z INFO CommandLineParser] arg: url
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 06:19:17Z INFO CommandLineParser] Adding option 'url': 'https://github.com/977812671/x'
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 06:19:17Z INFO CommandLineParser] arg: pat
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 06:19:17Z INFO CommandLineParser] Adding option 'pat': '***'
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 06:19:17Z INFO CommandLineParser] arg: version
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 06:19:17Z INFO CommandLineParser] Adding option 'version': '2.322.0.1'
+[2025-02-27 06:19:17Z INFO CommandLineParser] parsing argument
+[2025-02-27 06:19:17Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 06:19:17Z INFO CommandLineParser] arg: replace
+[2025-02-27 06:19:17Z INFO Listener] Arguments parsed
+[2025-02-27 06:19:17Z INFO CommandSettings] Command 'configure': 'True'
+[2025-02-27 06:19:17Z ERR  Terminal] WRITE ERROR: Unrecognized command-line input arguments for command configure: 'version'. For usage refer to: .\config.cmd --help or ./config.sh --help
+[2025-02-27 06:19:17Z INFO Runner] ExecuteCommand
+[2025-02-27 06:19:18Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner-2.322.0/out/Runner.Listener.dll
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:18Z INFO ConfigurationStore] binPath: /root/runner-2.322.0/out
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:18Z INFO ConfigurationStore] RootFolder: /root/runner-2.322.0
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:18Z INFO HostContext] Well known config file 'Runner': '/root/runner-2.322.0/.runner'
+[2025-02-27 06:19:18Z INFO ConfigurationStore] ConfigFilePath: /root/runner-2.322.0/.runner
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:18Z INFO HostContext] Well known config file 'Credentials': '/root/runner-2.322.0/.credentials'
+[2025-02-27 06:19:18Z INFO ConfigurationStore] CredFilePath: /root/runner-2.322.0/.credentials
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:18Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner-2.322.0/.credentials_migrated'
+[2025-02-27 06:19:18Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner-2.322.0/.credentials_migrated
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:18Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:18Z INFO HostContext] Well known config file 'Service': '/root/runner-2.322.0/.service'
+[2025-02-27 06:19:18Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner-2.322.0/.service
+[2025-02-27 06:19:18Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 06:19:18Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 06:19:18Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 06:19:18Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 06:19:18Z INFO CommandSettings] Command 'configure': 'True'
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE: |                       
+[2025-02-27 06:19:18Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE:                         |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 06:19:18Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 06:19:18Z INFO ConfigurationManager] ConfigureAsync
+[2025-02-27 06:19:18Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2025-02-27 06:19:18Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 06:19:18Z INFO ConfigurationStore] IsConfigured: False
+[2025-02-27 06:19:18Z INFO ConfigurationManager] Is configured: False
+[2025-02-27 06:19:18Z INFO CommandSettings] Arg 'url': 'https://github.com/977812671/x'
+[2025-02-27 06:19:18Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-02-27 06:19:18Z INFO ConfigurationManager] Retriving runner registration token using GitHub PAT.
+[2025-02-27 06:19:19Z INFO ConfigurationManager] Http response code: Created from 'POST https://api.github.com/repos/977812671/x/actions/runners/registration-token' (BF2E:BAC16:B341:17147:67C003E6)
+[2025-02-27 06:19:19Z INFO ConfigurationManager] Retrived runner registration token is good to 2025-02-27T15:19:19.163+08:00.
+[2025-02-27 06:19:19Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (CBD4:3959AD:186E5:31902:67C003E7)
+[2025-02-27 06:19:19Z INFO ConfigurationManager] Using V2 flow: False
+[2025-02-27 06:19:19Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-02-27 06:19:19Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 06:19:20Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 06:19:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 06:19:20Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 06:19:20Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 06:19:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 06:19:20Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 06:19:20Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 06:19:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 06:19:20Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 06:19:20Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 06:19:20Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 06:19:20Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:20Z INFO ConfigurationManager] Test Connection complete.
+[2025-02-27 06:19:20Z INFO HostContext] Well known directory 'Bin': '/root/runner-2.322.0/out'
+[2025-02-27 06:19:20Z INFO HostContext] Well known directory 'Root': '/root/runner-2.322.0'
+[2025-02-27 06:19:20Z INFO HostContext] Well known config file 'RSACredentials': '/root/runner-2.322.0/.credentials_rsaparams'
+[2025-02-27 06:19:20Z INFO RSAFileKeyManager] Found existing RSA key parameters file /root/runner-2.322.0/.credentials_rsaparams
+[2025-02-27 06:19:21Z INFO CommandSettings] Arg 'runnergroup': ''
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:21Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: [press Enter for Default] 
+[2025-02-27 06:19:21Z INFO Terminal] READ LINE
+[2025-02-27 06:19:21Z INFO Terminal] Read value: ' '
+[2025-02-27 06:19:21Z INFO PromptManager] Falling back to the default: 'Default'
+[2025-02-27 06:19:21Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:21Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:21Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:21Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:21Z INFO Terminal] READ LINE
+[2025-02-27 06:19:21Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:21Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:21Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:21Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:21Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:21Z INFO Terminal] READ LINE
+[2025-02-27 06:19:21Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:21Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:21Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:21Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:21Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:21Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:21Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:21Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:21Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:21Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:21Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:21Z INFO Terminal] READ LINE
+[2025-02-27 06:19:21Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:21Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:21Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:21Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:21Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:21Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:21Z INFO Terminal] READ LINE
+[2025-02-27 06:19:21Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:21Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:22Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:22Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:22Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:22Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:22Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:22Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:22Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:22Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:22Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:22Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:22Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:22Z INFO Terminal] READ LINE
+[2025-02-27 06:19:22Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:22Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:22Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:22Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:22Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:22Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:22Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:22Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:22Z INFO Terminal] READ LINE
+[2025-02-27 06:19:23Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:23Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:23Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:23Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:23Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:23Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:23Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:23Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:23Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:23Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:23Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:23Z INFO Terminal] READ LINE
+[2025-02-27 06:19:23Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:23Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:23Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:23Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:23Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:23Z INFO Terminal] READ LINE
+[2025-02-27 06:19:23Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:23Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:23Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:23Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:23Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:23Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:23Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:23Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:23Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:23Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:23Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:23Z INFO Terminal] READ LINE
+[2025-02-27 06:19:23Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:23Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:23Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:23Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:23Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:23Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:23Z INFO Terminal] READ LINE
+[2025-02-27 06:19:24Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:24Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:24Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:24Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:24Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:24Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:24Z INFO Terminal] READ LINE
+[2025-02-27 06:19:24Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:24Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:24Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:24Z INFO Terminal] READ LINE
+[2025-02-27 06:19:24Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:24Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:24Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:24Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:24Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:24Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:24Z INFO Terminal] READ LINE
+[2025-02-27 06:19:24Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:24Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:24Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:24Z INFO Terminal] READ LINE
+[2025-02-27 06:19:24Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:24Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:24Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:24Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:24Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:24Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:24Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:24Z INFO Terminal] READ LINE
+[2025-02-27 06:19:24Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:24Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:24Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:24Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:24Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:24Z INFO Terminal] READ LINE
+[2025-02-27 06:19:24Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:24Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:25Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:25Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:25Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:25Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:25Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:25Z INFO Terminal] READ LINE
+[2025-02-27 06:19:25Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:25Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:25Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:25Z INFO Terminal] READ LINE
+[2025-02-27 06:19:25Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:25Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:25Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:25Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:25Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:25Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:25Z INFO Terminal] READ LINE
+[2025-02-27 06:19:25Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:25Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:25Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:25Z INFO Terminal] READ LINE
+[2025-02-27 06:19:25Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:25Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:25Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:25Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:25Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:25Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:25Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:25Z INFO Terminal] READ LINE
+[2025-02-27 06:19:25Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:25Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:25Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:25Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:25Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:25Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:25Z INFO Terminal] READ LINE
+[2025-02-27 06:19:26Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:26Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:26Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:26Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:26Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:26Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:26Z INFO Terminal] READ LINE
+[2025-02-27 06:19:26Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:26Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:26Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:26Z INFO Terminal] READ LINE
+[2025-02-27 06:19:26Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:26Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:26Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:26Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:26Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:26Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:26Z INFO Terminal] READ LINE
+[2025-02-27 06:19:26Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:26Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:26Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:26Z INFO Terminal] READ LINE
+[2025-02-27 06:19:26Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:26Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:26Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:26Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:26Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:26Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:26Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:26Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:26Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:26Z INFO Terminal] READ LINE
+[2025-02-27 06:19:29Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:29Z INFO PromptManager] Falling back to the default: 'racknerd-fd2fee'
+[2025-02-27 06:19:29Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:29Z INFO CommandSettings] Arg 'labels': ''
+[2025-02-27 06:19:29Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:29Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:29Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2025-02-27 06:19:29Z INFO Terminal] WRITE: [press Enter to skip] 
+[2025-02-27 06:19:29Z INFO Terminal] READ LINE
+[2025-02-27 06:19:30Z INFO Terminal] Read value: ''
+[2025-02-27 06:19:30Z INFO Terminal] WRITE LINE: 
+[2025-02-27 06:19:30Z INFO Terminal] WRITE LINE: A runner exists with the same name
+[2025-02-27 06:19:30Z INFO CommandSettings] Flag 'replace': 'True'
+[2025-02-27 06:19:30Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:30Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2025-02-27 06:19:30Z ERR  GitHubActionsService] PUT request to https://pipelinesghubeus7.actions.githubusercontent.com/pOSkAEMb7Rb1iNtlqIJsHkppWLITdwPkojfzCWVEDcEWhouwni/_apis/distributedtask/pools/1/agents/21 failed. HTTP Status: BadRequest
+[2025-02-27 06:19:30Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:30Z ERR  Terminal] WRITE ERROR (exception):
+[2025-02-27 06:19:30Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+ ---> System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 916
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 862
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 280
+[2025-02-27 06:19:30Z ERR  Terminal] #####################################################
+[2025-02-27 06:19:30Z ERR  Terminal] System.ArgumentException: The runner version cannot be empty and must be of the format major.minor.patch.build[-semver]. (Parameter 'agent.Version')
+[2025-02-27 06:19:30Z ERR  Terminal] WRITE ERROR: Failed to replace the runner.  Try again or ctrl-c to quit
+[2025-02-27 06:19:30Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2025-02-27 06:19:30Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2025-02-27 06:19:30Z INFO CommandSettings] Arg 'name': ''
+[2025-02-27 06:19:30Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-27 06:19:30Z INFO PromptManager] ReadValue
+[2025-02-27 06:19:30Z INFO Terminal] WRITE: Enter the name of runner: 
+[2025-02-27 06:19:30Z INFO Terminal] WRITE: [press Enter for racknerd-fd2fee] 
+[2025-02-27 06:19:30Z INFO Terminal] READ LINE
+[2025-02-27 06:19:50Z INFO Terminal] WRITE LINE: Exiting...
